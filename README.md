@@ -7,41 +7,30 @@ Herramienta en **Python** que permite verificar si un correo electrónico aparec
 
 ---
 
-## ✨ Características
-- 🔎 Verifica si un email fue filtrado en brechas de seguridad.  
-- ⚡ Respuesta rápida con la API de HIBP.  
-- 🎨 Interfaz en consola con colores y banner ASCII.  
-- 🐍 Código simple en Python 3.  
-
----
-
-## 🚀 Instalación en Kali Linux
-
-Clonar el repositorio y entrar en la carpeta:
+## 🚀 Instalación, Uso y Ejemplo
 
 ```bash
+========================================================
+📦 Instalación en Kali Linux
+========================================================
 git clone https://github.com/nicosotomayor/email-breach-checker.git
 cd email-breach-checker
-Instalar dependencias con apt:
 
-bash
-Copiar código
 sudo apt update
 sudo apt install python3-requests python3-colorama python3-pyfiglet -y
+
+
+========================================================
 ▶️ Uso
-Ejecutar el script:
-
-bash
-Copiar código
+========================================================
 python3 src/email_checker.py
-Ejemplo de entrada:
 
-text
-Copiar código
 📧 Ingresá el email a verificar: test@example.com
+
+
+========================================================
 📋 Ejemplo de salida
-text
-Copiar código
+========================================================
 ██████╗ ██████╗ ███████╗ █████╗  ██████╗██╗  ██╗
 ██╔══██╗██╔══██╗██╔════╝██╔══██╗██╔════╝██║  ██║
 ██████╔╝██████╔╝█████╗  ███████║██║     ███████║
@@ -57,5 +46,5 @@ Copiar código
 
 📧 Ingresá el email a verificar: test@example.com
 ✅ test@example.com no aparece en filtraciones conocidas.
-📜 Licencia
-Este proyecto está bajo la licencia MIT – ver el archivo LICENSE para más detalles.
+
+
