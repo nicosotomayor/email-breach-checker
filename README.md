@@ -47,6 +47,10 @@ python3 src/email_checker.py
 ###📧 Ingresá el email a verificar: test@example.com
 ✅ test@example.com no aparece en filtraciones conocidas.
 
-📜 Licencia
+## 📜 Licencia  
 
-Este proyecto está bajo la licencia MIT – ver el archivo LICENSE para más detalles.
+```
+Tipo: MIT License
+Año: 2025
+Autor: nicosotomayor
+
